@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+g++ -std=c++11 ColorMand.cpp -o x
+./colormand $1
+eog map.ppm &

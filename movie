@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -e
+rm Movie/*.ppm
+rm Movie/*.h5
+g++ -std=c++11 -lhdf5 -fopenmp Main/movie.cpp -O3 -o x
+./x Decks/$1 1000 0
+ffmpeg -f image2 -r 15 -i Movie/ppm_%d.ppm -b 320000k $2

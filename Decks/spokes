@@ -1,0 +1,10 @@
+x	-.375989
+y	.659717669
+r	1.3e-3
+resFact	3.6
+maxIter 10000
+escape 	2.0
+color	1
+r	0
+g	150
+b	256

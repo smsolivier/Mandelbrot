@@ -1,0 +1,16 @@
+x	-.23513137
+y	.8272061
+r	.08e-6
+resFact	1
+maxIter 20000
+escape 	2.0
+color	3
+r	200
+g	0
+b	256
+
+res = 4000
+gputime = 26.8943 minutes
+x	-.235131
+y	.8272065
+r = .5e-6
