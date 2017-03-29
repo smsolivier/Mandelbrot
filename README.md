@@ -2,6 +2,9 @@
 
 This directory includes openMP and CUDA C++ implementations of the Mandelbrot Calculator
 
+Example of code output (run with spokes deck) 
+![alt text](https://github.com/smsolivier/Mandelbrot-/blob/master/spokes.png "Colored Mandelbrot Image")
+
 Tested on Arch Linux with
 * nvcc from CUDA toolkit 7.5
 * gcc 6.1.1
