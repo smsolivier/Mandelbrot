@@ -1,4 +1,4 @@
-Mandelbrot Calculator README
+# Mandelbrot Calculator
 
 This directory includes openMP and CUDA C++ implementations of the Mandelbrot Calculator
 
@@ -18,7 +18,7 @@ Dependencies
 * bash
 * HDF5
 
-## run 	
+## Running the code 
 ### openMP
 ./run deckname resolution or 
 ./run -omp deckname resolution
@@ -36,7 +36,7 @@ for help run ./run -h or ./run --help
 ### Mandelbrot.h 
 header file that defines the Mandelbrot class and shared functions 
 	
-### run 
+### run
 python script that compiles and runs the programs
 ./run -h will show the help for using this program 
 	
