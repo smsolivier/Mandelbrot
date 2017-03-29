@@ -21,6 +21,7 @@ Dependencies
 ## Running the code 
 ### openMP
 ./run deckname resolution or 
+
 ./run -omp deckname resolution
 	
 ### CUDA
@@ -38,6 +39,7 @@ header file that defines the Mandelbrot class and shared functions
 	
 ### run
 python script that compiles and runs the programs
+
 ./run -h will show the help for using this program 
 	
 ### movie
@@ -56,7 +58,9 @@ storage location for data dumps
 	
 ### Decks:
 contains all the input decks
+
 see current decks for the structure
+
 Structure must match exactly 
 		
 ### Functions:
